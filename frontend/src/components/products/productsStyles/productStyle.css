@@ -1,0 +1,26 @@
+.product {
+    background: antiquewhite;
+    width: 300px;
+    margin: 10px;
+    padding: 40px;
+}
+
+.product h2 {
+    color: black;
+}
+
+.read-more {
+    color: #1635a9;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.read-more:hover {
+    color: #2a16a9;
+    cursor: pointer;
+}
+
+.product button {
+    background: #1635a9;
+}
+

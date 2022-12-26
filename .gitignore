@@ -1,0 +1,9 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# Project exclude paths
+/frontend/node_modules/
+/backend/node_modules/

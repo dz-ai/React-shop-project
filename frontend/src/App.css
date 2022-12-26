@@ -1,0 +1,13 @@
+.app {
+    height: 100%;
+    justify-content: space-between;
+    background: url('images/brick-wall-gca4e1fcb7_1920.jpg');
+}
+
+.footer-content-wrapper {
+    overflow: auto;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}

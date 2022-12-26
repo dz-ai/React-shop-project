@@ -1,0 +1,27 @@
+.payment-fields {
+    background: white;
+    margin: 15px;
+    border: 1px solid #899ebd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.payment-fields * {
+    margin: 5px;
+}
+
+
+.payment-field {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-type-select {
+    justify-content: center;
+}
+
+@media (max-width: 370px) {
+    .payment-field {
+        flex-direction: column;
+    }
+}
