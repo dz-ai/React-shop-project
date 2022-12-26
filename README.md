@@ -2,8 +2,9 @@
 #### A simple shop with fake store api catalog for products.
 
 It includes:  
-Cart, User Login Option, and Submit Order Action.  
-the front end build with react library and the server side with node.js and express library use mongoDB as database and mongoose library to connect them. 
+Cart | User Login Option | Submit Order Action.  
+the front end build with react library and the server side with node.js and express library,  
+use mongoDB as database and mongoose library to connect them. 
 
 ## Front End  
 #### the shopping cart:  
