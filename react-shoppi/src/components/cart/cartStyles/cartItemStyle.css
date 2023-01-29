@@ -1,0 +1,41 @@
+.cart-item {
+    margin: 10px 0;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.cart-item p {
+    color: black;
+}
+
+.cart-item div {
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cart-item div * {
+    margin: 5px;
+}
+
+.cart-item-content {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cart-summery {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.image-cart {
+    width: 80px;
+    height: auto;
+}
+
+
+

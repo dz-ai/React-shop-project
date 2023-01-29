@@ -1,0 +1,24 @@
+.app {
+    height: 100%;
+    justify-content: space-between;
+    background: url('https://ik.imagekit.io/thfdl6dmv/brick-wall-1.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1672948189856');
+}
+
+/*.backgroundImage {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    height: 100%;*/
+/*}*/
+
+.footer-content-wrapper {
+    overflow: auto;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/*.app-wrapper {*/
+/*    position: absolute;*/
+/*}*/

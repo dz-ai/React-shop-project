@@ -1,0 +1,27 @@
+h2 {
+    color: white;
+    font-size: 60px;
+}
+
+.products {
+    flex-flow: row wrap;
+    align-items: flex-start;
+    flex: 2;
+    height: 100%;
+}
+
+.products-wrapper {
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+.products h2 {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+
+

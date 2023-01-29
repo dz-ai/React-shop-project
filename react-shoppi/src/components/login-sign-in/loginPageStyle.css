@@ -1,0 +1,27 @@
+div .login {
+    margin: 30px 0 100px 0;
+    background: #ece7e3;
+    width: fit-content;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 18px 2px black;
+}
+
+.login input {
+    margin: 5px;
+}
+
+.login button {
+    background: #7d4441;
+    padding: 4px 14px;
+    margin-top: 10px;
+}
+
+.message {
+    color: red;
+    font-size: 15px;
+}
+
+.login h3 {
+    color: #7d4441;
+}

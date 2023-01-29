@@ -1,0 +1,13 @@
+.mobile-category {
+    height: 100px;
+    background: #262d48;
+    padding: 30px;
+}
+
+@media (max-width: 670px) {
+    .small-menu {
+        position: relative;
+        top: 20px;
+        box-shadow: 0 0 8px 0;
+    }
+}

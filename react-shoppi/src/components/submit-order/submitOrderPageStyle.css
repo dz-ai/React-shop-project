@@ -1,0 +1,86 @@
+.submit-order-layout {
+    height: 100%;
+    background: #ffffff8f;
+    justify-content: start;
+    padding-bottom: 120px;
+}
+
+.submit-order-layout header {
+    height: 50px;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+
+.total-summit-page-username {
+    background: #d1716c;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #3e16168a;
+}
+
+.total-summit-page {
+    background: #3baebd;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.payment-and-address-section {
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 400px) {
+    .submit-order-layout {
+        align-items: center;
+    }
+
+    .submit-order-layout header {
+        height: 120px;
+        flex-direction: column;
+        max-width: 80%;
+    }
+
+    .submit-order-input-fields {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .submit-order-input-field {
+        width: 100%;
+    }
+
+    .submit-order-input-field input {
+        max-width: 100%;
+    }
+}
+
+.submit-order-input-fields {
+    background: white;
+    margin: 15px;
+    border: 1px solid #899ebd;
+    padding: 20px;
+}
+
+.submit-order-input-fields * {
+    margin: 5px;
+}
+
+
+.submit-order-input-field {
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.card-type-select {
+    justify-content: center;
+}
+
+@media (max-width: 370px) {
+    .payment-field {
+        flex-direction: column;
+    }
+}

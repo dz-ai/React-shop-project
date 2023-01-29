@@ -1,0 +1,9 @@
+.saved-cart-button {
+    background: #4865a1;
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    height: fit-content;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
