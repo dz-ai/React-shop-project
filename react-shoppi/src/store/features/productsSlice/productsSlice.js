@@ -1,6 +1,4 @@
 import {createSlice} from "@reduxjs/toolkit";
-import {createAsyncThunk} from "@reduxjs/toolkit";
-import {apiUrl} from "../fetchFun";
 import products from "./product.json";
 
 const initialState = {
@@ -11,30 +9,10 @@ const initialState = {
     filteredProducts:[],
 };
 
-// export const fetchProducts = createAsyncThunk('products/fetchProducts', () => {
-//     return fetch(`${apiUrl}/products/fetch-products`)
-//         .then(res => res.json())
-//         .then(results => results);
-// });
-
 export const productsSlice = createSlice({
     name: 'products',
     initialState: initialState,
-    extraReducers: builder => {
-        // builder.addCase(fetchProducts.pending, state => {
-        //     state.loading = true;
-        // });
-        // builder.addCase(fetchProducts.fulfilled, (state, action) => {
-        //     state.loading = false;
-        //     state.products = action.payload;
-        //     state.error = '';
-        // });
-        // builder.addCase(fetchProducts.rejected, (state, action) => {
-        //     state.loading = false;
-        //     state.products = [];
-        //     state.error = action.error.message;
-        // });
-    },
+
     reducers: {
         fetchProducts(state) {
             state.loading = true;
